@@ -1,0 +1,10 @@
+{
+  "scriptFile" : "../mongo-function-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.WatchFunction.run",
+  "bindings" : [ {
+    "type" : "timerTrigger",
+    "direction" : "in",
+    "name" : "timerInfo",
+    "schedule" : "*/30 * * * * *"
+  } ]
+}
