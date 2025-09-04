@@ -3,10 +3,10 @@
 This project demonstrates how to use **Azure Functions with Java** to watch a MongoDB (or Cosmos DB for MongoDB vCore) collection for change stream events.
 
 ## Prerequisites
-- Java 17+
-- Maven 3.8+
-- Azure Functions Core Tools
-- Azure CLI
+- [Java 17+](https://www.oracle.com/in/java/technologies/downloads/)
+- [Maven 3.8+](https://maven.apache.org/download.cgi?Preferred=ftp%3A%2F%2Fmirror.reverse.net%2Fpub%2Fapache%2F)
+- [Azure Functions Core Tools](https://www.npmjs.com/package/azure-functions-core-tools/v/4.0.6610)
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget)
 - A MongoDB or Cosmos DB for MongoDB vCore instance with [enabled changestreams](https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/change-streams)
 - VS Code (optional, with the Azure Functions extension)
 
